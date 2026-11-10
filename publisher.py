@@ -2,7 +2,7 @@ import json
 
 import paho.mqtt.client as mqtt
 
-BROKER_ADDRESS = "10.208.164.135"
+BROKER_ADDRESS = "test.mosquitto.org"
 BROKER_PORT = 1883
 TOPIC = "robot/commande"
 COMMANDS = {"avancer", "reculer", "gauche", "droite", "stop", "servo"}
