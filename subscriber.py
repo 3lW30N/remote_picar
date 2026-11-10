@@ -16,8 +16,8 @@ import MotorCtrl as motorctrl
 
 BROKER_ADDRESS = "10.208.164.135"
 BROKER_PORT = 1883
-TOPIC = "remotePicar"
-COMMANDS = {"avancer", "reculer", "gauche", "droite", "stop"}
+TOPIC = "robot/commande"
+COMMANDS = {"avancer", "reculer", "gauche", "droite", "stop", "servo"}
 
 
 def on_connect(client, userdata, flags, reason_code, properties=None):
